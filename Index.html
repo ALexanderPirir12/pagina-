@@ -28,6 +28,9 @@
             text-decoration: none;
             margin: 0 15px;
         }
+        nav a:hover {
+            text-decoration: underline;
+        }
         section {
             padding: 20px;
         }
@@ -36,6 +39,7 @@
         }
         .moto {
             display: flex;
+            flex-wrap: wrap;
             margin-bottom: 20px;
             border-bottom: 1px solid #ddd;
             padding-bottom: 10px;
@@ -45,12 +49,15 @@
             height: auto;
             margin-right: 20px;
         }
+        .moto div {
+            max-width: 600px;
+        }
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
-            position: fixed;
+            position: relative;
             bottom: 0;
             width: 100%;
         }
@@ -77,7 +84,7 @@
     <h2>Modelos Destacados</h2>
 
     <div class="moto">
-        <img src="https://via.placeholder.com/200" alt="Moto 1">
+        <img src="https://via.placeholder.com/200" alt="Yamaha R1">
         <div>
             <h3>Yamaha R1</h3>
             <p>La Yamaha YZF-R1 es una motocicleta superdeportiva de alto rendimiento diseñada para ofrecer una experiencia de conducción extrema en pista y carretera.</p>
@@ -85,7 +92,7 @@
     </div>
 
     <div class="moto">
-        <img src="https://via.placeholder.com/200" alt="Moto 2">
+        <img src="https://via.placeholder.com/200" alt="Honda CBR1000RR">
         <div>
             <h3>Honda CBR1000RR</h3>
             <p>La Honda CBR1000RR ofrece un equilibrio perfecto entre potencia y control, lo que la convierte en una de las motos deportivas más confiables y emocionantes del mercado.</p>
@@ -93,7 +100,7 @@
     </div>
 
     <div class="moto">
-        <img src="https://via.placeholder.com/200" alt="Moto 3">
+        <img src="https://via.placeholder.com/200" alt="Kawasaki Ninja ZX-10R">
         <div>
             <h3>Kawasaki Ninja ZX-10R</h3>
             <p>La Kawasaki Ninja ZX-10R está diseñada para dominar tanto en la pista como en la carretera, con una tecnología avanzada y un rendimiento impresionante.</p>
@@ -113,3 +120,4 @@
 
 </body>
 </html>
+
